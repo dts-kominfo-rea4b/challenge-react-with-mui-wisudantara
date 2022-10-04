@@ -41,3 +41,21 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.contact-form {
+  max-width: 50vh;
+  outline-color:rgb(152, 245, 149);
+  outline-style:dashed;
+  outline-width: 2px;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-auto-columns: max-content;
+}
+
